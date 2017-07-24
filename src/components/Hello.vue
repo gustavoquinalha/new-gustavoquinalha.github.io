@@ -3,17 +3,15 @@
     <div class="content size margin ">
       <div class="title">
         <h1>Powering Your Favorites</h1>
+        <hr>
         <p>From e-Commerce, travel, and social media, to consumer brands and business services.</p>
       </div>
-
-
       <div class="container-draw">
         <div class="draw-img">
           <div class="container-draw-img">
             <div class="work-img" v-for="work in justDrawOne">
               <img :src="require('@/assets/images/draws/' + work.image)" width="100%">
             </div>
-
           </div>
         </div>
         <div class="draw-img">
@@ -21,7 +19,6 @@
             <div class="work-img" v-for="work in justDrawTwo">
               <img :src="require('@/assets/images/draws/' + work.image)" width="100%">
             </div>
-
           </div>
         </div>
         <div class="draw-img">
@@ -29,21 +26,23 @@
             <div class="work-img" v-for="work in justDrawThree">
               <img :src="require('@/assets/images/draws/' + work.image)" width="100%">
             </div>
-
+          </div>
+        </div>
+        <div class="draw-img">
+          <div class="container-draw-img">
+            <div class="work-img" v-for="work in justDrawFour">
+              <img :src="require('@/assets/images/draws/' + work.image)" width="100%">
+            </div>
           </div>
         </div>
       </div>
-
-
-
     </div>
-    <!-- <ul>
-  <li v-for="work in works">{{work.title}}</li>
-</ul> -->
+
   </div>
 </template>
 
 <script>
+// import rodape from './rodape'
   export default {
     name: 'hello',
     computed: {
@@ -56,7 +55,13 @@
     justDrawThree(){
       return this.works.filter(works => works.tag == '3');
     },
+    justDrawFour(){
+      return this.works.filter(works => works.tag == '4');
+    },
   },
+  // components: {
+  //   rodape: rodape
+  // },
     data() {
       return {
         works: [{
@@ -97,7 +102,7 @@
         {
           title: 'title 6',
           type: 'draw',
-          tag: '2',
+          tag: '3',
           image: '6.jpg'
         },
         {
@@ -109,13 +114,13 @@
         {
           title: 'title 8',
           type: 'draw',
-          tag: '3',
+          tag: '4',
           image: '8.jpg'
         },
         {
           title: 'title 9',
           type: 'draw',
-          tag: '3',
+          tag: '4',
           image: '9.png'
         },
         {
@@ -128,7 +133,7 @@
         {
           title: 'title 12',
           type: 'draw',
-          tag: '1',
+          tag: '4',
           image: '31.png'
         },
         {
@@ -175,7 +180,22 @@
     }
   }
   .title {
-    padding-top: 30px;
+    margin-left: 10px;
+    padding-top: 50px;
     padding-bottom: 20px;
+      h1 {
+        font-weight: 900;
+        margin-bottom: 0px;
+      }
+      p {
+        font-size: 1em;
+      }
+      hr {
+        width: 50px;
+        height: 10px;
+        background: #04AA51;
+        border: none;
+        margin-bottom: 10px;
+      }
   }
 </style>
