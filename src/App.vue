@@ -6,6 +6,7 @@
     <github></github>
     <hello></hello>
     <!-- <router-view></router-view> -->
+    <email></email>
     <rodape></rodape>
 
   </div>
@@ -17,14 +18,16 @@
   import github from './components/github';
   import rodape from './components/rodape';
   import intro from './components/intro';
+  import email from './components/email';
   export default {
     name: 'app',
     components: {
       topo: topo,
+      intro: intro,
       hello: hello,
       github: github,
       rodape: rodape,
-      intro: intro
+      email: email
     },
     data() {
       return {
