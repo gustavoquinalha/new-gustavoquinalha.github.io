@@ -1,10 +1,9 @@
 <template>
-  <div class="hello">
     <div class="content size margin ">
       <div class="title">
         <h1>Powering Your Favorites</h1>
         <hr>
-        <p>From e-Commerce, travel, and social media, to consumer brands and business services.</p>
+        <p>From e-Commerce, travel, and social media...</p>
       </div>
       <div class="container-draw">
         <div class="draw-img">
@@ -38,7 +37,6 @@
       </div>
     </div>
 
-  </div>
 </template>
 
 <script>
@@ -182,14 +180,12 @@
   .title {
     margin-left: 10px;
     padding-top: 50px;
-    padding-bottom: 20px;
-      h1 {
-        font-weight: 900;
-        margin-bottom: 0px;
-      }
-      p {
-        font-size: 1em;
-      }
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.2em;
+    }
       hr {
         width: 50px;
         height: 10px;

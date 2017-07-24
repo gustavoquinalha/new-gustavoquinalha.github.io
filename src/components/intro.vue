@@ -187,7 +187,6 @@
     margin: 0 auto;
     padding-bottom: 70px;
     h1 {
-      color: #04AA51;
       font-size: 2em;
     }
     p {
@@ -215,18 +214,11 @@
 
   .hoversvg {
     transition: .2s;
+    fill: #2B2836;
     &:hover {
       fill: #04AA51;
-      animation-name: links;
-      animation-duration: 1s;
-      animation-fill-mode: backwards;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      @keyframes links {
-        0% {}
-        50% {transform: scale(1.1, 1.1)}
-        100% {}
-      }
+      transform: translateY(-10px);
+
     }
   }
 </style>
