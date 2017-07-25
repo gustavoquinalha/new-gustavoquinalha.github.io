@@ -42,7 +42,7 @@
 <script>
 // import rodape from './rodape'
   export default {
-    name: 'hello',
+    name: 'draws',
     computed: {
     justDrawOne(){
       return this.works.filter(works => works.tag == '1');

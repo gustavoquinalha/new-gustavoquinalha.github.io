@@ -5,7 +5,8 @@
     <intro></intro>
     <github></github>
     <projects></projects>
-    <hello></hello>
+    <draws></draws>
+    <logos></logos>
     <!-- <router-view></router-view> -->
     <email></email>
     <rodape></rodape>
@@ -15,7 +16,8 @@
 
 <script>
   import topo from './components/topo';
-  import hello from './components/hello';
+  import logos from './components/logos';
+  import draws from './components/draws';
   import github from './components/github';
   import projects from './components/projects';
   import rodape from './components/rodape';
@@ -25,9 +27,10 @@
     name: 'app',
     components: {
       topo: topo,
+      logos: logos,
       projects: projects,
       intro: intro,
-      hello: hello,
+      draws: draws,
       github: github,
       rodape: rodape,
       email: email

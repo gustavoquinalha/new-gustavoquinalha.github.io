@@ -1,5 +1,5 @@
 <template>
-  <div class="margin size esp">
+  <div class="margin size esp container center column">
     <div class="apresentation">
       <h1>Hello, my name is Gustavo...</h1>
       <p>I’m a passionate multidisciplinary designer with 10 years of commercial experience. I like to take a human approach to design, making sure my creations are lead by UX research. I have experience in designing; websites, web applications, and iOS
@@ -177,8 +177,7 @@
 
 <style lang="scss" scoped>
   .esp {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    min-height: 100vh
   }
 
   .apresentation {
