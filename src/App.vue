@@ -3,7 +3,7 @@
 
     <topo></topo>
     <intro></intro>
-    <github></github>
+    <!-- <github></github> -->
     <projects></projects>
     <draws></draws>
     <logos></logos>

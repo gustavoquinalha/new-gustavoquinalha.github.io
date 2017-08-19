@@ -1,10 +1,10 @@
 <template>
   <div class="margin size esp container center column">
-    <div class="apresentation">
+    <!-- <div class="apresentation">
       <h1>Hello, my name is Gustavo...</h1>
       <p>I’m a passionate multidisciplinary designer with 10 years of commercial experience. I like to take a human approach to design, making sure my creations are lead by UX research. I have experience in designing; websites, web applications, and iOS
         design. I’ve worked with agencies, startups, and large organisations.</p>
-    </div>
+    </div> -->
 
     <!-- <div class="social container wrap align-center justify-center">
       <div class="social-item" v-for="social in mysocial">
@@ -177,7 +177,7 @@
 
 <style lang="scss" scoped>
   .esp {
-    min-height: 100vh
+    // min-height: 100vh
   }
 
   .apresentation {
@@ -194,6 +194,7 @@
   }
 
   .social {
+  padding-top: 100px;
     .social-item {
       margin: 1px;
       text-align: center;

@@ -7,7 +7,7 @@
           <div class="bgpattern3"></div> <!-- verde-escuro -->
           <div class="bgpattern4"></div> <!-- branco -->
           <div class="header-text">
-            <h1>Crafting beautiful UI/UX into seamless semantic code.</h1>
+            <h1>Gustavo Quinalha</h1>
             <p>Located in the old English town of Shrewsbury, home to the world's first skyscraper & the oldest working brewery. Lead Designer at Zengenti.</p>
             <button type="button" name="button">More about me</button>
             <img src="" alt="">
@@ -48,8 +48,11 @@ header {
        max-width: 90%;
        color: #fff;
        z-index: 2;
+       text-align: center;
          h1 {
-           font-size: 3.5em;
+           font-size: 4em;
+           font-weight: 900;
+           text-transform: uppercase;
            line-height: 110%;
            padding-bottom: 20px
          }
@@ -57,7 +60,7 @@ header {
            font-size: 1.5em;
            padding-bottom: 20px;
          }
-         
+
      }
    }
 }
