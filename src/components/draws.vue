@@ -1,5 +1,5 @@
 <template>
-  <div class="content ">
+  <div class="content margin size">
     <div class="title wow slideInUp" data-wow-duration="1s">
       <h1>Conheça alguns dos<br>meus desenhos</h1>
       <hr>
