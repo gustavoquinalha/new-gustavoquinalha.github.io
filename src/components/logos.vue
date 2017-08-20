@@ -1,11 +1,10 @@
 <template>
-    <div class="content size margin ">
-      <div class="title">
-        <h1>Powering Your Favorites</h1>
+    <div class="content">
+      <div class="title wow slideInUp" data-wow-duration="1s">
+        <h1>Algumas das marcas<br>criadas por mim</h1>
         <hr>
-        <p>From e-Commerce, travel, and social media...</p>
       </div>
-      <div class="container-draw">
+      <div class="container-draw wow slideInUp" data-wow-duration="1s">
         <div class="draw-img">
           <div class="container-draw-img">
             <div class="work-img" v-for="work in justDrawOne">
@@ -213,19 +212,23 @@
   }
   .title {
     margin-left: 10px;
-    padding-top: 50px;
+    padding-top: 200px;
     h1 {
-      font-size: 2em;
+      font-size: 3.5em;
+      line-height: 110%;
+      padding-bottom: 20px;
+      color: #000;
+      text-align: center;
     }
-    p {
-      font-size: 1.2em;
+    hr {
+      width: 200px;
+      height: 10px;
+      background: #000;
+      border: none;
+      margin: 0 auto;
+      border-radius: 40px;
+      opacity: .5;
+      margin-bottom: 100px;
     }
-      hr {
-        width: 50px;
-        height: 10px;
-        background: #04AA51;
-        border: none;
-        margin-bottom: 10px;
-      }
   }
 </style>

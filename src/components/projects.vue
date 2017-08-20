@@ -54,32 +54,38 @@
           id: 1,
           class: 'white',
           title: 'Clinify',
-          description: 'Um aplicativo completo para clinicas',
+          description: 'Um aplicativo completo para clinicas, com controle de pacientes, agendamento, finanças e muitas outras features que auxiliam o medico, paciente e clinica.',
           image: 'clinify.png'
         }, {
           id: 2,
           class: 'black',
           title: 'Sendify',
-          description: 'Um aplicativo completo para clinicas',
+          description: 'Envie mensagens por e-mail rápidamente com o Sendify, um lindo sistema de drag and drop com os mais belos templates.',
           image: 'sendify.png'
         }, {
           id: 3,
           class: 'white',
-          title: 'PDFy ',
-          description: 'Um aplicativo completo para clinicas',
+          title: 'PDFy',
+          description: 'Com a idéia de criar apresentações de slides mais rápida e com temas e cores diferencidas, surgiu o PDFY. Mudaremos totalmente a forma de apresentar e fazer as aprensentações!',
           image: 'pdfy.png'
         }, {
           id: 4,
           class: 'black',
-          title: 'Sizify ',
-          description: 'Um aplicativo completo para clinicas',
+          title: 'Sizify',
+          description: 'A ferramenta completa para analisar a responsividade de seus sites, com vários testes.',
           image: 'sizify.png'
         }, {
           id: 5,
           class: 'white',
-          title: 'SeoTopper ',
-          description: 'Um aplicativo completo para clinicas',
-          image: 'clinify.png'
+          title: 'SeoTopper',
+          description: 'Um gerador de SEO incrível, gere todas as metatags que você precisa em quetão de minutos.',
+          image: 'seotopper.png'
+        }, {
+          id: 6,
+          class: 'black',
+          title: 'Bichinhos',
+          description: 'Um aplicativo para adotar bichinhos e cadastrar os perdidos.',
+          image: 'bichinhos.png'
         }]
       }
     }
@@ -146,7 +152,8 @@
           padding-bottom: 20px;
         }
         p {
-          font-size: 1.2em;
+          font-size: 2em;
+          opacity: .5
         }
       }
       .info-item-img {

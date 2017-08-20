@@ -71,6 +71,7 @@
         p {
           font-size: 2em;
           padding-bottom: 20px;
+          opacity: .5
         }
       }
     }
