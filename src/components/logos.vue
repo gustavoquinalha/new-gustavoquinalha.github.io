@@ -117,18 +117,13 @@
           tag: '1',
           image: 'logo5.jpg'
         },
-        {
-          title: 'title 6',
-          type: 'draw',
-          tag: '2',
-          image: 'logo6.jpg'
-        },
-        {
-          title: 'title 7',
-          type: 'draw',
-          tag: '3',
-          image: 'logo7.jpg'
-        },
+
+        // {
+        //   title: 'title 7',
+        //   type: 'draw',
+        //   tag: '3',
+        //   image: 'logo7.jpg'
+        // },
         {
           title: 'title 8',
           type: 'draw',
@@ -160,19 +155,18 @@
           tag: '4',
           image: 'logo13.svg'
         },
-
-        {
-          title: 'title 17',
-          type: 'draw',
-          tag: '1',
-          image: 'logo17.jpeg'
-        },
-        {
-          title: 'title 18',
-          type: 'draw',
-          tag: '4',
-          image: 'logo18.svg'
-        },
+        // {
+        //   title: 'title 17',
+        //   type: 'draw',
+        //   tag: '1',
+        //   image: 'logo17.jpeg'
+        // },
+        // {
+        //   title: 'title 18',
+        //   type: 'draw',
+        //   tag: '4',
+        //   image: 'logo18.svg'
+        // },
 
       ],
       }
