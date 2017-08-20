@@ -2,8 +2,23 @@
   <div>
     <header>
       <div class="header container wrap column center">
-        <animationHeader>
-        </animationHeader>
+
+        <div class="menu container align-center justify-right">
+          <div class="flex">
+            <h1>GHQ</h1>
+          </div>
+          <div class="">
+            <ul>
+              <li class="active">Home</li>
+              <li>Works</li>
+              <li>Draws</li>
+              <li>Brands</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        <animationHeader></animationHeader>
         <div class="header--topo container wrap center">
           <div class="header--topo__image wow slideInUp" data-wow-duration="1s">
             <img class="" src="../assets/images/me.jpg" alt="">
@@ -37,6 +52,33 @@
 
 
 <style lang="scss" scoped>
+.menu {
+  min-height: 70px;
+  width: 100%;
+  background: #000;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+    h1  {
+      color: #fff;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+        li {
+          color: #fff;
+          margin: 10px;
+          font-size: 1.2em;
+          font-weight: 900;
+          opacity: .3;
+          &.active {
+            opacity: 1
+          }
+        }
+
+    }
+}
   .header {
     width: 100vw;
     height: 100vh;
