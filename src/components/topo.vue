@@ -1,12 +1,12 @@
 <template>
   <div>
     <header>
-      <div class="header container column center">
+      <div class="header container wrap column center">
         <animationHeader>
         </animationHeader>
-        <div class="header--topo container center">
+        <div class="header--topo container wrap center">
           <div class="header--topo__image wow slideInUp" data-wow-duration="1s">
-            <img class=""  src="../assets/images/me.jpg" alt="">
+            <img class="" src="../assets/images/me.jpg" alt="">
           </div>
           <div class="header--topo__text">
             <h1 class="wow slideInLeft" data-wow-duration="1s">Gustavo Quinalha</h1>
@@ -30,20 +30,17 @@
     },
     name: 'topo',
     data() {
-      return {
-
-
-      }
+      return {}
     }
   }
 </script>
 
 
 <style lang="scss" scoped>
-.header {
-  width: 100vw;
-  height: 100vh;
-  background: #000000;
+  .header {
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
     .header--topo {
       width: 100%;
       z-index: 5;
@@ -75,11 +72,36 @@
         }
       }
     }
-}
+  }
 
+  @media screen and (max-width: 920px) {
+    .header--topo {
+      transform: translateY(0px)!important;
+      .header--topo__image {
+        img {
+          width: 300px!important;
+          transform: translateY(50px)!important;
+        }
+      }
 
-
-
-
-
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .header--topo {
+      transform: translateY(-100px)!important;
+      .header--topo__image {
+        img {
+          width: 400px!important;
+          transform: translateY(100px) translateX(-150px)!important;
+          opacity: .3
+        }
+      }
+      .header--topo__text {
+        text-align: center!important;
+        h1 {
+          font-size: 3em!important
+        }
+      }
+    }
+  }
 </style>
