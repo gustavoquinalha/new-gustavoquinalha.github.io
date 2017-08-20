@@ -2,7 +2,7 @@
   <div id="app">
 
     <topo></topo>
-    <intro></intro>
+    <!-- <intro></intro> -->
     <!-- <github></github> -->
     <projects></projects>
     <draws></draws>
@@ -23,6 +23,9 @@
   import rodape from './components/rodape';
   import intro from './components/intro';
   import email from './components/email';
+
+
+
   export default {
     name: 'app',
     components: {
@@ -43,5 +46,5 @@
 </script>
 
 <style lang="scss">
-  @import './src/assets/css/main.scss';
+  @import './assets/css/main.scss';
 </style>
